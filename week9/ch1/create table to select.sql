@@ -1,0 +1,17 @@
+CREATE TABLE student (
+		id INT NOT NULL DEFAULT 1,
+		`name` VARCHAR(20) NOT NULL DEFAULT ' ',
+		chinese FLOAT NOT NULL DEFAULT 0.0,
+		english FLOAT NOT NULL DEFAULT 0.0,
+		math FLOAT NOT NULL DEFAULT 0.0
+);
+INSERT INTO student VALUES(1,'张顺飞',89,78,90);	
+INSERT INTO student VALUES(2,'张飞',89,78,90);	
+INSERT INTO student VALUES(3,'宋江',89,78,90);	
+INSERT INTO student VALUES(4,'关羽',89,78,90);	
+INSERT INTO student VALUES(5,'赵云',89,78,90);	
+INSERT INTO student VALUES(6,'欧阳锋',89,78,90);	
+INSERT INTO student VALUES(7,'黄蓉',89,78,90);
+INSERT INTO student VALUES(7,'赵好运',89,78,90);
+
+SELECT * FROM student		
